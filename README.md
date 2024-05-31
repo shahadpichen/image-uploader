@@ -13,7 +13,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-##Environment Variables
+## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file:
 
@@ -22,10 +22,10 @@ NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 ```
 
-##Setting Up Authentication Providers in Supabase
+## Setting Up Authentication Providers in Supabase
 To use GitHub, Google, and Discord as authentication providers, follow these steps:
 
-##GitHub Provider:
+## GitHub Provider:
 * Go to the GitHub Developer Settings.
 * Click on "New OAuth App".
 * Fill in the application details. The "Authorization callback URL" should be https://your-supabase-url/auth/v1/callback.
@@ -33,7 +33,7 @@ To use GitHub, Google, and Discord as authentication providers, follow these ste
 * Add these to your Supabase dashboard under Authentication > Providers > GitHub.
 
   
-##Google Provider:
+## Google Provider:
 * Go to the Google Cloud Console.
 * Create a new project or select an existing one.
 * Navigate to "APIs & Services" > "Credentials".
@@ -42,7 +42,7 @@ To use GitHub, Google, and Discord as authentication providers, follow these ste
 * Add these to your Supabase dashboard under Authentication > Providers > Google.
 
   
-##Discord Provider:
+## Discord Provider:
 * Go to the Discord Developer Portal.
 * Click "New Application" and fill in the application details.
 * Navigate to "OAuth2" > "Redirects" and add https://your-supabase-url/auth/v1/callback.
